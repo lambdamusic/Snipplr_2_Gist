@@ -20,14 +20,14 @@ Examples
 -----------------------------------------
 
 
-1) export all stuff from Spipplr
+1) Connecting to Snipplr
 
 
 	In [1]: from SnipplrPy import *
 
 	In [2]: c = SnipplrPy()
 
-	In [3]: c.setup("22b3asd66b77571efec")
+	In [3]: c.setup("sdf213adasfdsf434rsfdsf")
 	Out[3]: True
 
 	In [4]: snippets = [x for x in c.list()]
@@ -53,17 +53,17 @@ etc...
 
 
 
-2) grab the useful data and post it to github gist
+2) Connecting to github gist
 
 	In [1]: from gisty import *
 
-	In [2]: gist_list("name", "password")
+	In [2]: gist_list("magicrebirth", "23465t7234jg")
 	https://gist.github.com/3808121 - [u'new_gist.py'] 'Python: take input from stdin and create a new public gist with it'
 	https://gist.github.com/3807911 - [u'base.html'] 'Html: base'
 	https://gist.github.com/3096854 - [u'Tractatus-rgraph.js'] 'RGraph for Tractatus visualization'
 	https://gist.github.com/9c0263e2e5e07e6eddb0 - [u'Scheme load rss into Impromptu 2 ', u'Scheme: load rss into Impromptu 2 ', u'Scheme.scm'] 'Scheme: load rss into Impromptu'
 
-	In [3]: gist_post_console("test.py", "define (x)", True, "magicrebirth", "zabiz99")
+	In [3]: gist_post_console("test.py", "define (x)", True, "magicrebirth", "23465t7234jg")
 	Posting gist as magicrebirth
 	Posted to https://gist.github.com/3808191
 	Git pull: git://gist.github.com/3808191.git
